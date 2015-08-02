@@ -1,6 +1,4 @@
-# Twitterarchive input plugin for Embulk
-
-TODO: Write short description here and embulk-input-twitterarchive.gemspec file.
+# Twitter Archive input plugin for Embulk
 
 ## Overview
 
@@ -11,17 +9,14 @@ TODO: Write short description here and embulk-input-twitterarchive.gemspec file.
 
 ## Configuration
 
-- **option1**: description (integer, required)
-- **option2**: description (string, default: `"myvalue"`)
-- **option3**: description (string, default: `null`)
+- **option1**: directory (string, default: `null`)
 
 ## Example
 
 ```yaml
 in:
   type: twitterarchive
-  option1: example1
-  option2: example2
+  directory: "/path/to/extracted-twitter-archive"
 ```
 
 
